@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <title>Calculator</title>
 </head>
 <body>
@@ -13,37 +15,40 @@
         <div class="screen">
             <input type="text" readonly id="screen">
         </div>
-        <div class="btns">
+        <div class="bttns">
             <div class="row1">
-                <input class="btn" onclick="del()" type="button" value="DEL">
+                <input class="bttn" onclick="del()" type="button" value="DEL">
                 <input class="ac" onclick="ac()" type="button" value="AC">
             </div>
             <div class="row2">
-                <input class="btn" onclick="display('7')" type="button" value="7">
-                <input class="btn" onclick="display('8')" type="button" value="8">
-                <input class="btn" onclick="display('9')" type="button" value="9">
-                <input class="btn" onclick="display('+')" type="button" value="+">
+                <input class="bttn" onclick="display('7')" type="button" value="7">
+                <input class="bttn" onclick="display('8')" type="button" value="8">
+                <input class="bttn" onclick="display('9')" type="button" value="9">
+                <input class="bttn" onclick="display('+')" type="button" value="+">
             </div>
             <div class="row3">
-                <input class="btn" onclick="display('4')" type="button" value="4">
-                <input class="btn" onclick="display('5')" type="button" value="5">
-                <input class="btn" onclick="display('6')" type="button" value="6">
-                <input class="btn" onclick="display('-')" type="button" value="-">
+                <input class="bttn" onclick="display('4')" type="button" value="4">
+                <input class="bttn" onclick="display('5')" type="button" value="5">
+                <input class="bttn" onclick="display('6')" type="button" value="6">
+                <input class="bttn" onclick="display('-')" type="button" value="-">
             </div>
             <div class="row4">
-                <input class="btn" onclick="display('1')" type="button" value="1">
-                <input class="btn" onclick="display('2')" type="button" value="2">
-                <input class="btn" onclick="display('3')" type="button" value="3">
-                <input class="btn" onclick="display('*')" type="button" value="*">
+                <input class="bttn" onclick="display('1')" type="button" value="1">
+                <input class="bttn" onclick="display('2')" type="button" value="2">
+                <input class="bttn" onclick="display('3')" type="button" value="3">
+                <input class="bttn" onclick="display('*')" type="button" value="*">
             </div>
             <div class="row5">
-                <input class="btn" onclick="display('0')" type="button" value="0">
-                <input class="btn" onclick="display('.')" type="button" value=".">
-                <input class="btn" onclick="solve()" type="button" value="=">
-                <input class="btn" onclick="display('/')" type="button" value="/">
+                <input class="bttn" onclick="display('0')" type="button" value="0">
+                <input class="bttn" onclick="display('.')" type="button" value=".">
+                <input class="bttn" onclick="solve()" type="button" value="=">
+                <input class="bttn" onclick="display('/')" type="button" value="/">
             </div>
         </div>
     </div>
+
+    <!--Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <!-- javascript custom src -->
     <script src="script.js"></script>
 </body>
