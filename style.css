@@ -458,7 +458,7 @@
         width: 92%;
         height: 16%;
         background: white;
-        margin-left: 10px;
+        margin-left: 18px;
         margin-top: 10px;
         margin-right: 5px;
         /*! border: solid black 2px; */
@@ -555,6 +555,7 @@ footer{
     text-align: center;
 }
 .socail-title{
+    font-family: cursive;
     color: white;
     text-align: center;
 }
