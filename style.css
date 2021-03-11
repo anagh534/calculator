@@ -1,4 +1,3 @@
-
 @media (max-width:575.98px){
     .main-screen{
         /* text-align: center; */
@@ -530,4 +529,12 @@
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
     }
+}
+.bttn:hover{
+    border: solid black 3px;
+    border-radius: 25%;
+}
+.ac:hover{
+    border: solid black 3px;
+    border-radius: 25%; 
 }
