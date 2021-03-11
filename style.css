@@ -1,0 +1,10 @@
+@media (max-width:1920px){
+    .main-screen{
+        text-align: center;
+        background: gray;
+        width: 25rem;
+        height: 28rem;
+        margin-left: 37%;
+        margin-top: 8rem;
+    }
+}
