@@ -6,8 +6,12 @@ function ac(){
 }
 function solve(){
     let num1=document.getElementById('screen').value;
-    let num2=eval(num1);
-    document.getElementById('screen').value=num2;
+    if(num1===""){
+        document.getElementById('screen').value="";
+    }else{
+        let num2=eval(num1);
+        document.getElementById('screen').value=num2;
+    }
 }
 function del() {
     var value = document.getElementById("screen").value;
