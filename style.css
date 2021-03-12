@@ -1,4 +1,4 @@
-@media (max-width:575.98px){
+@media (max-width:342px){
     .main-screen{
         /* text-align: center; */
         background: rgba(73, 62, 57, 0.76);
@@ -69,6 +69,96 @@
         float: right;
         border: solid black 2px;
         border-radius: 20%;
+    }
+    #screen{
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        background: white;
+        /*! margin-left: 10px; */
+        /*! margin-top: 10px; */
+        /*! margin-right: 5px; */
+        border: solid black 4px;
+        border-radius: 11px;
+        text-align: right;
+        font-size: 28px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+}
+@media (max-width:575.98px){
+    .main-screen{
+        /* text-align: center; */
+        background: rgba(73, 62, 57, 0.76);
+        width: 18.8rem;
+        height: 24rem;
+        margin-left: 2%;
+        margin-top: 7rem;
+        border: solid black 2px;
+        border-radius: 10px;
+    }
+    .screen{
+        width: 91%;
+        height: 16%;
+        background: white;
+        margin-left: 14px;
+        margin-top: 10px;
+        margin-right: 5px;
+        /*! border: solid black 2px; */
+        border-radius: 13px;
+    }
+    .bttns{
+        width: 97%;
+        height: 75%;
+        margin-left: 0px;
+        margin-top: 23px;
+    }
+    .row1{
+        /* background: red; */
+        width: 94%;
+        height: 16%;
+        margin-bottom: 10px;
+    }
+    .row2{
+        /* background: red; */
+        width: 94%;
+        height: 15%;
+        margin-bottom: 12px;
+    }
+    .row3{
+        /* background: red; */
+        width: 94%;
+        height: 15%;
+        margin-bottom: 12px;
+    }
+    .row4{
+        /* background: red; */
+        width: 94%;
+        height: 15%;
+        margin-bottom: 12px;
+    }
+    .row5{
+        /* background: red; */
+        width: 94%;
+        height: 15%;
+        margin-bottom: 12px;
+    }
+    .bttn{
+        width: 2.4rem;
+        height: 2.4rem;
+        margin-left: 1.6rem;
+        border: solid black 2px;
+        border-radius: 20%;
+        font-size: 12px;
+    }
+    .ac{ 
+        width: 2.4rem;
+        height: 2.4rem;
+        margin-right: 0.1rem;
+        float: right;
+        border: solid black 2px;
+        border-radius: 20%;
+        font-size: 12px;
     }
     #screen{
         cursor: pointer;
